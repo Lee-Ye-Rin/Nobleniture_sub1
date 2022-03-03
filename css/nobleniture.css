@@ -1,0 +1,575 @@
+@font-face {
+  font-family: 'YESGothic-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/YESGothic-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+body{
+  font-family: "YESGothic";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+/*top*/
+#top{
+  width: 100%;
+  background-color: #333333;
+  height: 150px;
+  position: relative;
+}
+
+.top_inner{
+  width: 1320px;
+  margin: auto;
+  position: relative;
+}
+
+.top_inner h1{
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+
+.top_inner h2{
+  position: absolute;
+  top: 95px;
+}
+
+.top_inner .login{
+ position: absolute;
+ right: 0;
+ top: 30px;
+}
+
+.top_inner .login li a{
+  color: #fff;
+}
+
+.top_inner .login li a:hover{
+  color: #ccc;
+}
+
+
+.top_inner .login li{
+  float: left;
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.top_inner .menu{
+  position: absolute;
+  z-index: 99;
+  left: 50%;
+  top: 85px;
+  width: 498px;
+  transform: translateX(-50%);
+}
+
+.top_inner> .menu> li{
+  float: left;
+  font-size: 20px;
+  position: relative;
+}
+
+.top_inner> .menu> li> a{
+  display: block;
+  padding: 10px 20px; 
+  color: #fff;
+}
+
+.top_inner> .menu> li> a:hover{
+  color: #ccc;
+}
+
+.sub{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 150px;
+  position: absolute;
+  margin: auto;
+  left: -35px;
+  display: none;
+  border-bottom: 1px solid #2a242a;
+}
+
+.sub1{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 150px;
+  position: absolute;
+  margin: auto;
+  left: -15px;
+  display: none;
+  border-bottom: 1px solid #2a242a;
+  
+}
+
+.sub2{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 150px;
+  position: absolute;
+  margin: auto;
+  left: -25px;
+  display: none;
+  border-bottom: 1px solid #2a242a;
+}
+
+.sub3{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  left: -13px;
+  display: none;
+  border-bottom: 1px solid #2a242a;
+}
+
+
+.sub ul{
+  margin: auto;
+}
+
+.sub1 ul{
+  margin: auto;
+}
+
+.sub2 ul{
+  margin: auto;
+}
+
+.sub3 ul{
+  margin: auto;
+}
+
+
+.sub a{
+  display: block;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+ 
+}
+
+.sub1 a{
+  display: block;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+ 
+}
+
+.sub2 a{
+  display: block;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+ 
+}
+
+.sub3 a{
+  display: block;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+ 
+}
+
+.sub a:hover{
+  background-color: #d4b180;
+}
+
+.sub1 a:hover{
+  background-color: #d4b180;
+}
+
+.sub2 a:hover{
+  background-color: #d4b180;
+}
+
+.sub3 a:hover{
+  background-color: #d4b180;
+}
+
+.top_inner .menu li:hover .sub{
+  display: block;
+}
+
+.top_inner .menu li:hover .sub1{
+  display: block;
+}
+
+.top_inner .menu li:hover .sub2{
+  display: block;
+}
+
+.top_inner .menu li:hover .sub3{
+  display: block;
+}
+
+input{
+  position: absolute;
+  width: 197px;
+  height: 35px;
+  color: #fff;
+  border: 1px solid #d4b180;
+  padding-left: 45px;
+  right: 0;
+  top: 85px;
+  background: url(../images/search.png) no-repeat 5px 5px;
+}
+
+#intro{
+  background-color: #efe7db;
+  height: 1000px;
+}
+
+.introduce{
+  width: 1116px;
+  margin: auto;
+}
+
+.com{
+  float: left;
+  width: 533px;
+  height: 800px;
+  position: relative;
+}
+
+.com .t1{
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+
+.com .t2{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+}
+
+.com .t3{
+  position: absolute;
+  top: 55%;
+  left: 35%;
+}
+
+.introduce h1{
+  text-align: center;
+  font-family: 'El Messiri', sans-serif;
+  font-weight: bold;
+  padding-top: 100px;
+  font-size: 48px;
+  color: #533054;
+}
+
+.in_con{
+  width: 415px;
+  float: right;
+}
+.in_con h1{
+  text-align: center;
+}
+
+.in_con h2{
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  color: purple;
+  padding-top: 45px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.in_con .gold{
+  color: #d4b180;
+}
+
+.in_con p{
+  padding: 15px 0;
+  text-align: center;
+}
+
+.in_con .pur{
+  font-size: 18px;
+  color: purple;
+}
+
+#bi{
+  height: 2300px;
+}
+
+.brand_inner{
+  width: 1116px;
+  margin: auto;
+}
+
+.brand_inner h1{
+  text-align: center;
+  font-family: 'El Messiri', sans-serif;
+  padding-top: 100px;
+  font-size: 48px;
+  color: #d3b07f;
+}
+
+.brand_inner h4{
+  text-align: center;
+  font-size: 24px;
+  border-bottom: 2px solid #543154;
+  padding: 100px 0 20px 0;
+}
+
+.brand_inner h2{
+  padding: 100px 0;
+  text-align: center;
+}
+
+.brand_inner h3{
+  text-align: center;
+  padding: 100px 0;
+}
+
+.symbol{
+  text-align: center;
+}
+
+.symbol img{
+  padding: 100px 0;
+  display: inline-block;
+}
+
+.symbol .sym li{
+  font-weight: bold;
+  font-size: 17px;
+  float: left;
+  width: 33.3%;
+}
+
+.code{
+  margin: auto;
+  width: 826px;
+}
+
+.code div{
+  float: left;
+  width: 262px;
+}
+
+.code div:nth-child(2){
+  margin: 0 20px;
+}
+
+#vision{
+  background-color: #efe7db;
+  height: 850px;
+}
+
+.vision_inner{
+  width: 1116px;
+  margin: auto;
+}
+
+.vision_inner h1{
+  text-align: center;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 100px;
+  color: #533054;
+}
+
+.vision_inner h3{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 80px 0;
+}
+
+.vision_inner div{
+  float: left;
+  text-align: center;
+  width: 33.3%;
+}
+
+.vision_inner h4{
+  text-align: center;
+  color: #574122;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.vision_inner p{
+  text-align: center;
+  color: #574122;
+  padding: 4px 0;
+  font-size: 17px;
+}
+
+#flagship{
+  width: 1116px;
+  margin: auto;
+}
+
+.flagship_inner h1{
+  font-family: 'El Messiri', sans-serif;
+  color: #d3b07f;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.flagship_inner .location li{
+  text-align: center;
+  margin: 50px 0;
+  padding-top: 75px;
+  box-sizing: border-box;
+  
+}
+
+.flagship_inner .location li a{
+  color: #d3b07f;
+  font-weight: bold;
+}
+
+.lo{
+  position: relative;
+  width: 1076px;
+  height: 695px;
+  margin-bottom: 100px;
+}
+
+.location{
+  position: absolute;
+  top: 0;
+  left: 0; 
+  list-style: url(../images/new-moon.png) 5px 5px  inside;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(83, 48, 84, 0.8);
+  height: 695px;
+  width: 250px;
+}
+
+
+
+.add{
+  width: 1076px;
+  background-color: rgb(83, 48, 84);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 40px;
+}
+
+.add p{
+  color: #fff;
+  font-size: 18px;
+  padding: 30px 30px;
+  line-height: 30px;
+}
+
+/*footer*/
+#footer{
+  width: 100%;
+  background-color: #333333;
+  position: relative;
+}
+
+.footer_inner{
+  position: relative;
+  width: 1320px;
+  height: 400px;
+  margin: auto;
+}
+
+.footer_inner h1{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.footer_inner .sns{
+  position: absolute;
+  top: 60%;
+  left: 3.7%;
+}
+
+.footer_inner .sns li{
+  float: left;
+  
+}
+
+.footer_inner .sns li a:hover{
+  opacity: 0.5;
+}
+
+.footer_inner .center{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15%;
+}
+
+.footer_inner .center p{
+  color: #fff;
+}
+
+.footer_inner .center .nobleniture{
+  padding-bottom: 15px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_inner .center .e-mail{
+padding-top: 25px;
+}
+
+.footer_inner .center .copyright{
+  padding-top: 85px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_inner .us{
+  position: absolute;
+  right: 5%;
+  top: 15%;
+}
+
+.footer_inner .us .contact{
+  font-size: 23px;
+  padding-bottom: 15px;
+}
+
+.footer_inner .us .c{
+  font-size: 35px;
+}
+
+.footer_inner .us .online{
+  padding-top: 20px;
+}
+
+.footer_inner .us .offline{
+  padding-top: 27px;
+}
+
+.footer_inner .us .offline2{
+  padding-bottom: 27px;
+}
+
+
+.footer_inner .us p{
+  color: #fff;
+}
+
+
+
+
